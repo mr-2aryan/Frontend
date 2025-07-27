@@ -1,0 +1,31 @@
+.image-overla {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgb(173, 93, 48) 30%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.image-hover-container:hover .image-overla {
+    opacity: 1;
+    background: linear-gradient(90deg, rgb(173, 93, 48) 30%, rgba(0, 0, 0, 0) 100%);
+}
+
+.image-overla h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.image-overla button {
+    margin-top: 1rem;
+}

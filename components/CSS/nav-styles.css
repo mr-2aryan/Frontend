@@ -1,0 +1,10 @@
+.nav-link,
+.ppp {
+  transition: color 0.3s ease;
+}
+
+.nav-link.active,
+.ppp:hover,
+.ppp.active {
+  color: rgb(173, 93, 48)!important;
+}
